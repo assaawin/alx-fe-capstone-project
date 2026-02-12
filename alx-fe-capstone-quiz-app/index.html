@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizMaster - Test Your Knowledge</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1><i class="fas fa-brain"></i> QuizMaster</h1>
+        <p class="tagline">
+          Test your knowledge on various topics. Challenge yourself and have
+          fun!
+        </p>
+      </header>
+
+      <!-- Landing Page -->
+      <div id="landing-page" class="card">
+        <h2>Select Quiz Category</h2>
+        <p>Choose a topic that interests you:</p>
+
+        <div class="categories-container" id="categories-container">
+          <!-- Categories will be loaded dynamically -->
+        </div>
+
+        <h3 style="margin-top: 30px">Select Difficulty</h3>
+        <div class="difficulty-container">
+          <div class="difficulty-btn" data-difficulty="easy">Easy</div>
+          <div class="difficulty-btn" data-difficulty="medium">Medium</div>
+          <div class="difficulty-btn" data-difficulty="hard">Hard</div>
+        </div>
+
+        <div style="margin-top: 30px">
+          <button id="start-quiz-btn" class="btn" disabled>
+            <i class="fas fa-play"></i> Start Quiz
+          </button>
+        </div>
+      </div>
+
+      <!-- Quiz Page -->
+      <div id="quiz-page" class="card">
+        <div class="quiz-header">
+          <div class="question-counter" id="question-counter">
+            Question 1 of 10
+          </div>
+          <div class="score-display">
+            Score: <span id="current-score">0</span>
+          </div>
+        </div>
+
+        <div class="question-card">
+          <div class="question-text" id="question-text">
+            Loading question...
+          </div>
+
+          <div class="answers-container" id="answers-container">
+            <!-- Answers will be loaded dynamically -->
+          </div>
+        </div>
+
+        <div class="quiz-footer">
+          <div class="progress-bar">
+            <div class="progress" id="quiz-progress"></div>
+          </div>
+          <button id="next-question-btn" class="btn" disabled>
+            Next Question <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Results Page -->
+      <div id="results-page" class="card">
+        <div class="result-icon">
+          <i class="fas fa-trophy"></i>
+        </div>
+
+        <h2>Quiz Completed!</h2>
+        <p class="feedback" id="result-feedback">Great job! You did well.</p>
+
+        <div class="score-circle">
+          <div class="score-circle-inner">
+            <div class="final-score" id="final-score">0%</div>
+            <div class="score-text">Final Score</div>
+          </div>
+        </div>
+
+        <div class="result-details">
+          <div class="result-box">
+            <div class="result-value" id="correct-answers">0</div>
+            <div class="result-label">Correct</div>
+          </div>
+          <div class="result-box">
+            <div class="result-value" id="total-questions">10</div>
+            <div class="result-label">Total</div>
+          </div>
+          <div class="result-box">
+            <div class="result-value" id="percentage">0%</div>
+            <div class="result-label">Percentage</div>
+          </div>
+        </div>
+
+        <div style="margin-top: 30px">
+          <button id="restart-quiz-btn" class="btn">
+            <i class="fas fa-redo"></i> Try Another Quiz
+          </button>
+        </div>
+      </div>
+
+      <!-- Loading State -->
+      <div id="loading-state" class="card loading" style="display: none">
+        <div class="spinner"></div>
+        <h3>Loading Questions...</h3>
+        <p>Please wait while we fetch your quiz questions.</p>
+      </div>
+
+      <!-- Error State -->
+      <div id="error-state" class="error-message" style="display: none">
+        <h3><i class="fas fa-exclamation-triangle"></i> Error Loading Quiz</h3>
+        <p id="error-text">
+          There was a problem fetching the quiz questions. Please try again.
+        </p>
+        <button id="retry-btn" class="btn" style="margin-top: 15px">
+          <i class="fas fa-sync-alt"></i> Retry
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
