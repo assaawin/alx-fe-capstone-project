@@ -2,6 +2,8 @@
 
 QuizMaster is a fully responsive, vanilla JavaScript quiz application that fetches real trivia questions from the Open Trivia Database. Users can select a category and difficulty level, answer multiple‑choice questions, and receive immediate feedback with a detailed score report at the end.
 
+🔗 Live Demo: https://alx-capstone-quiz-app.netlify.app/
+
 📁 Folder Structure
 The project follows a simple, organised file structure:
 
