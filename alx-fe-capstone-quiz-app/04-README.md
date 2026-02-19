@@ -21,7 +21,7 @@ The project follows a simple, organised file structure:
 The UI was designed in Figma before implementation.
 These files include wireframes, high‑fidelity mockups, and interactive prototypes that guided the development. You can view the design files here:
 
-01-Guidelines: [Figma-Capstone Project Guidelines](https://www.figma.com/design/QvGZU924YSW3FrN7tffoUO/Capstone-Project?node-id=0-1)
+01-[Figma-Capstone Project Guidelines](https://www.figma.com/design/QvGZU924YSW3FrN7tffoUO/Capstone-Project?node-id=0-1)
 
 02-[The Idea: Figma-The Idea](https://www.figma.com/design/QvGZU924YSW3FrN7tffoUO/Capstone-Project?node-id=4-16)
 
