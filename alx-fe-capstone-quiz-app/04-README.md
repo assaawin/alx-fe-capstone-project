@@ -8,8 +8,11 @@ QuizMaster is a fully responsive, vanilla JavaScript quiz application that fetch
 The project follows a simple, organised file structure:
 
 01-index.html – Main HTML file containing the structure of the app.
+
 02-style.css – All styles, including design tokens, components, and responsive rules.
+
 03-script.js – Vanilla JavaScript implementing the quiz logic, API integration, and DOM updates.
+
 04-readme.md – This documentation file.
 
 🎯 Figma Design Files
@@ -40,4 +43,4 @@ https://opentdb.com/
 02-Font Awesome – Icons.
 https://fontawesome.com/
 
-03-Figma – [ty Figma for free!](https://www.figma.com/)
+03-Figma – [try Figma for free!](https://www.figma.com/)
