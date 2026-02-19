@@ -52,3 +52,19 @@ https://opentdb.com/
 https://fontawesome.com/
 
 03-Figma – [try Figma for free!](https://www.figma.com/)
+
+🚀 Future Enhancements
+
+While the application is fully functional, several features could be added to further enrich the user experience:
+
+01-Timer – Add a countdown for each question (e.g., 30 seconds). If time runs out, automatically mark as incorrect and move to the next question.
+
+02-User Accounts – Save scores and progress (requires a backend).
+
+03-Leaderboard – Compare scores with other players.
+
+04-Dark Mode – Toggle between light and dark themes.
+
+05-More Question Types – True/False, multiple images.
+
+06-Sound Effects – Optional audio feedback for correct/incorrect answers.
