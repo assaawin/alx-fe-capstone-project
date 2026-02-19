@@ -26,10 +26,10 @@ These files include wireframes, high‑fidelity mockups, and interactive prototy
 Endpoint: https://opentdb.com/api.php
 Parameters:
 
--amount=10 – Number of questions.
--category – Category ID
--difficulty – easy, medium, or hard.
--type=multiple – Multiple choice questions.
+01-amount=10 – Number of questions
+02-category – Category ID
+03-difficulty – easy, medium, or hard
+04-type=multiple – Multiple choice questions
 
 Example Request:
 https://opentdb.com/api.php?amount=10&category=9&difficulty=medium&type=multiple
@@ -37,10 +37,10 @@ https://opentdb.com/api.php?amount=10&category=9&difficulty=medium&type=multiple
 Response Format:
 The API returns a JSON object with a results array containing question objects, each with:
 
--question – The question text (may contain HTML entities).
--correct_answer – The correct answer.
--incorrect_answers – An array of three incorrect answers.
--difficulty, category, etc.
+01-question – The question text (may contain HTML entities)
+02-correct_answer – The correct answer
+03-incorrect_answers – An array of three incorrect answers
+04-difficulty, category, etc
 
 ⚙️ Setup & Installation
 To run this project locally:
