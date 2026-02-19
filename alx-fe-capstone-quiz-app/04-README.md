@@ -5,6 +5,7 @@ QuizMaster is a fully responsive, vanilla JavaScript quiz application that fetch
 🔗 Live Demo: https://alx-capstone-quiz-app.netlify.app/
 
 📁 Folder Structure
+
 The project follows a simple, organised file structure:
 
 01-index.html – Main HTML file containing the structure of the app.
@@ -16,6 +17,7 @@ The project follows a simple, organised file structure:
 04-readme.md – This documentation file.
 
 🎯 Figma Design Files
+
 The UI was designed in Figma before implementation.
 These files include wireframes, high‑fidelity mockups, and interactive prototypes that guided the development. You can view the design files here:
 
@@ -26,17 +28,23 @@ These files include wireframes, high‑fidelity mockups, and interactive prototy
 03-[The Design: Figma-The Design](https://www.figma.com/design/QvGZU924YSW3FrN7tffoUO/Capstone-Project?node-id=36-1982)
 
 ⚙️ Setup & Installation
+
 To run this project locally:
 
 01- Clone the repository
+
 git clone https://github.com/assaawin/alx-fe-capstone-quiz-app.git
+
 cd alx-fe-capstone-quiz-app
 
 02-Open the project
+
 Simply open 01-index.html in your favourite browser.
+
 No server or build tools required – it works directly from the file system
 
 🙌 Credits
+
 01-Open Trivia Database – Free and awesome trivia API.
 https://opentdb.com/
 
